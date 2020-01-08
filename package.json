@@ -1,7 +1,10 @@
 {
   "name": "react",
-  "version": "0.0.0",
   "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
