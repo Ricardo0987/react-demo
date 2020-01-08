@@ -1,21 +1,36 @@
 {
-  "name": "react",
+  "name": "react-demo",
   "private": true,
   "version": "1.0.0",
   "engines": {
     "node": "12.14.1"
   },
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "cra-template": "1.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "typescript": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "react-scripts": "latest"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
